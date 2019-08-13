@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Appath_Connect</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extend SOAP API</summary>
+    <description>1. Add relations product data (child/parent ids)&#xD;
+2. .. &#xD;
+&#xD;
+Extension is in Beta state</description>
+    <notes>.</notes>
+    <authors><author><name>Appath Inc.</name><user>appath</user><email>appath@appath.com</email></author></authors>
+    <date>2016-08-05</date>
+    <time>15:08:04</time>
+    <contents><target name="magelocal"><dir name="Appath"><dir name="Connect"><dir name="Model"><dir name="Catalog"><dir name="Product"><dir name="Api"><file name="V2.php" hash="72f985eda7b10171764d424171844848"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="1078941e5f843ecea8a9f10f88514bd4"/><file name="wsdl.xml" hash="7b5eb8655ce83963d461fc7f6ca19cf5"/></dir></dir><dir name="ProductRelations"><dir name="Api"><file name="V2.php" hash="481ee1c2aa720c140bb12ddb279a12be"/></dir><dir name="Model"><dir name="Catalog"><dir name="Product"><dir name="Api"><file name="V2.php" hash="f656f8ac7c192a17d19d1f67c5330946"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="cc854a4a935af9bc54d0190e3f54856d"/><file name="wsdl.xml" hash="7b5eb8655ce83963d461fc7f6ca19cf5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Appath_Connect.xml" hash="7b74cce51236a883034dc6d9ed4595e2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>7.1.0</max></php></required></dependencies>
+</package>

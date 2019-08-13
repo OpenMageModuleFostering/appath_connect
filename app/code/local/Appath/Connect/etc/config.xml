@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Appath_Connect>
+            <version>1.0.0</version>
+        </Appath_Connect>
+    </modules>
+    <global>
+        <models>
+            <appath_connect>
+                <class>Appath_Connect_Model</class>
+            </appath_connect>
+            <catalog>
+                <rewrite>
+                    <product_api_v2>Appath_Connect_Model_Catalog_Product_Api_V2</product_api_v2>
+                </rewrite>
+            </catalog>
+        </models>
+        <helpers>
+            <appath_connect>
+                <class>Appath_Connect_Helper</class>
+            </appath_connect>
+        </helpers>
+    </global>
+</config>
