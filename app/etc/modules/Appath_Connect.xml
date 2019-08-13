@@ -3,11 +3,11 @@
     <modules>
         <Appath_Connect>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
             <depends>
                 <Mage_Api />
             </depends>
-            <version>0.1.0</version>
+            <version>1.0.1</version>
         </Appath_Connect>
     </modules>
 </config>
