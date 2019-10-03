@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Appath_Connect",
+    "name": "OpenMageModuleFostering\/Appath_Connect",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Extend SOAP API",
     "authors": [
-    {
-        "name": "Appath Inc.",
-        "email": "appath@appath.com"
-    }
-],
+        {
+            "name": "Appath Inc.",
+            "email": "appath@appath.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
